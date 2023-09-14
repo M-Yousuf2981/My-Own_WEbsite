@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.lm {
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100% cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.logo{
+    color: grey;
+    font-size: 38px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(2, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: aquamarine;
+}
+.content {
+    background-image: url(./img/images.jpg);
+    position: absolute;
+    top: 50%;
+    right: 8%;    
+}
+p {
+    color: rgb(8, 3, 12);
+}
+p span {
+    font-size: 5opx;
+    color: rgba(214, 161, 16, 0.664);
+   
+}
+.content h2 {
+    font-size:60px ;
+}
+h4 span {
+    color: rgb(241, 190, 22);
+    animation: alternate-reverse;
+    animation-duration: 4s;
+    font-size: 40px;
+}
+h4 {
+    font-size: 30px;
+}
+.background {
+    background-image:url(./HTmlassigment.jpg/background.jpg.jpg) no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+button {
+    position: absolute;
+    top: 110%;
+    right: 82%;
+    height: 4vh;
+}
+   
